@@ -1,4 +1,5 @@
 const { crawlPage } = require('./crawl.js');
+const { printReport } = require('./report.js');
 
 // takes as input a website and crawl it. Takes the input from command line
 async function main() {
@@ -15,8 +16,6 @@ async function main() {
   console.log(`Starting crawl for website: ${baseUrl}`);
   const pages = await crawlPage(baseUrl, baseUrl, {});
 
-  for (const page of Object.entries(pages)) {
-    console.log(page);
-  }
+  printReport(pages);
 }
 main();
