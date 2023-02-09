@@ -1,3 +1,5 @@
+// TODO Export a .csv file with the report
+
 function printReport(pages) {
   console.log('=================');
   console.log('=====REPORT======');
