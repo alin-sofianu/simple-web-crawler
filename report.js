@@ -12,6 +12,7 @@ function printReport(pages) {
 
 function sortPages(pages) {
   // this gives the structure we want, an array of arrays
+  // The Object.entries() returns an array of a given object's key-value pairs.
   const pagesArr = Object.entries(pages);
   pagesArr.sort((a, b) => {
     aHits = a[1];
