@@ -2,7 +2,7 @@
 
 This is a Command Line Application that runs using Node.js.
 
-My web crawler project, for Coursera HTTP Networking course.
+Web crawler project, for Coursera HTTP Networking course.
 
 The purpose of this project, is to crawl a single website and then produce a report of it's internal linking structure.
 
